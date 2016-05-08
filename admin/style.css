@@ -1,0 +1,60 @@
+body{
+	padding-top: 120px;
+	font-family: arial;
+	font-weight:bold;
+	background: none repeat scroll 0 0 #063f6e
+}
+.container{
+	background: none repeat scroll 0 0 #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    height: auto;
+    margin: 0 auto;
+    padding: 75px;
+    width: 380px;
+}
+.container h3{
+	color: #e06501;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.admin_container{
+	background: none repeat scroll 0 0 #ededed;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 5px #a7a7a7;
+    height: auto;
+    margin: 0 auto;
+    padding: 75px;
+    width: 380px;
+}
+
+
+a:link, a:visited{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	color: #444;
+	border-bottom-color: #444;
+}
+small{
+	color: #999;
+	font-style: italic;
+}
+p{
+	line-height: 25px;
+}
+ol li{
+	line-height: 50px;
+}
+input[type=text], input[type=password], textarea{
+	-webkit-appearance: none;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	outline:none;
+}

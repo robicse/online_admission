@@ -1,0 +1,116 @@
+/* main css */
+
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: cambria, "hoefler text", "liberation serlf", times, "Times new roman", serf;
+	font-size: 13px;
+	line-height: 15px;
+	background: #ccc;
+}
+img{
+	border: none;
+}
+a{
+	color: #fff;
+	line-height: 30px;
+}
+a:hover{
+	color: #666;
+}
+#header{
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	text-align: left;
+	color:#222;
+	background: #ddd;
+}
+#header h1{
+	padding: .8em;
+	margin: 0;
+}
+#header a{
+	text-decoration: none;
+	color: #222;
+}
+.logo{
+	width: 90%;
+	float: left;
+}
+.logout{
+	float: left;
+    margin-top: 12px;
+    padding: 0;
+    width: 10%;
+}
+
+#main{
+	height: 550px;
+	width: 100%;
+	background: #002859;
+	overflow: hidden;
+}
+#footer{
+	clear: both;
+	height: 2em;
+	padding: 1em;
+	text-align: center;
+	background: #ddd;
+	color: #000;
+}
+#navigation{
+	float: left;
+	width: 150px;
+	height: 100%;
+	padding: 0 2em;
+	color: #fff;
+	background: none repeat scroll 0 0 #063f6e;
+}
+#navigation a{
+	color: #fff;
+	text-decoration: none;
+}
+#navigation a:hover{
+	color: #9c3;
+}
+ul.subjects{
+	margin: 1em 0;
+	padding-left: 0;
+	list-style: none; 
+}
+ul.page{
+	padding-left: 2em;
+	list-style: square;
+}
+.selected{
+	font-weight: bold;
+}
+
+#page{
+	float: left;
+	height: 100%;
+	width: 400px;
+	padding-left: 2em;
+	vertical-align: top;
+	background: #002859; 
+}
+#page h2{
+	color: #fff;
+	margin-top: 1.5em;
+}
+#page h3{
+	color: #fff;
+}
+.extra_view{
+	color: #fff;
+    float: left;
+    padding: 2.5em;
+}
